@@ -1,0 +1,10 @@
+https://stackoverflow.com/questions/43317980/how-do-i-deploy-my-typescript-node-js-app-to-heroku
+
+
+https://www.positronx.io/deploy-simple-node-js-app-on-heroku-in-minutes/
+
+https://cloudnweb.dev/2019/09/building-a-production-ready-node-js-app-with-typescript-and-docker/
+
+https://codeburst.io/node-js-typescript-on-heroku-a3ac5a62cf66
+
+https://codeburst.io/node-js-on-heroku-a-more-complete-tutorial-part-1-9e80cb071498
