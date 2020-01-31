@@ -17,7 +17,7 @@ export const signup = async (req: Request, res: Response) => {
     const saveUser = await user.save();
     // token 
     const token: string = jwt.sign({ _id: saveUser._id }, process.env.TOKEN_SECRETO || 'text', {
-        expiresIn:  60
+        expiresIn:  60*60*24
     });
 console.log(token)
     res.json({ message: "signup",token: token })
@@ -41,7 +41,7 @@ export const signin = async (req: Request, res: Response) => {
     if (!correctPassword) { return res.status(400).json({ message: "Password or email is  wrong" }) }
 
     const token: string = jwt.sign({ _id: user._id }, process.env.TOKEN_SECRET || 'text', {
-        expiresIn: 60
+        expiresIn: 60*60*24
     })
     console.log(token);
     res.json({ message: "signin",token: token})
