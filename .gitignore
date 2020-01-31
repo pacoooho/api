@@ -24,9 +24,10 @@ speed-measure-plugin*.json
 .settings/
 *.sublime-workspace
 
+heroku.txt
 
 README2.md
-heroku.txt
+
 
 # IDE - VSCode
 .vscode/*
